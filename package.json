@@ -1,0 +1,16 @@
+{
+  "name": "project-template",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcanas/project-template.git"
+  },
+  "devDependencies": {
+    "express": "~4.2",
+    "grunt": "~0.4.4",
+    "grunt-contrib-less": "^0.11.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-express-server": "~0.4.17",
+    "jade": "~1.3.1",
+    "matchdep": "~0.3.0"
+  }
+}
