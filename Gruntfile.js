@@ -7,6 +7,7 @@ module.exports = function( grunt ) {
 		express: {
 			dev: {
 				options: {
+					port: 3000,
 					script: 'app.js'
 				}
 			}
@@ -28,6 +29,12 @@ module.exports = function( grunt ) {
 				options: {
 					spawn: false
 				}
+			},
+			livereload: {
+				options: {
+					livereload: true
+				},
+				files: ['views/**/*.jade','public_assets/**/*']
 			},
 			styles: {
 				files: ['public_assets/css/src/**/*.less'],

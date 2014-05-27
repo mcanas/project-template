@@ -1,2 +1,41 @@
 // Library imports
 @import "../../../bower_components/bootstrap/less/bootstrap.less";
+
+// Carousel module
+.carousel {
+}
+
+.carousel__slide {
+	position: absolute;
+	z-index: 1;
+
+	&--current {
+		&:extend(.carousel__slide);
+		z-index: 2;
+	}
+}
+
+.caption {
+	padding: 2.5% 5%;
+	width: 100%;
+
+	background-color: rgba(0, 0, 0, .75);
+	color: white;
+
+	bottom: 5%;
+	position: absolute;
+	z-index: 1;
+}
+
+.caption__title {
+	margin: 0;
+}
+
+.caption__link {
+	color: inherit;
+
+	&:hover {
+		color: inherit;
+		text-decoration: none;
+	}
+}
