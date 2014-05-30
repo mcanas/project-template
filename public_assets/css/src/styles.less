@@ -8,14 +8,13 @@
 .carousel__slide {
 	position: absolute;
 	z-index: 1;
-
-	&--current {
-		&:extend(.carousel__slide);
-		z-index: 2;
-	}
 }
 
-.caption {
+.carousel__slide--current {
+	z-index: 2;
+}
+
+.image-caption {
 	padding: 2.5% 5%;
 	width: 100%;
 
@@ -27,11 +26,11 @@
 	z-index: 1;
 }
 
-.caption__title {
+.image-caption__title {
 	margin: 0;
 }
 
-.caption__link {
+.image-caption__link {
 	color: inherit;
 
 	&:hover {

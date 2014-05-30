@@ -5772,15 +5772,14 @@ button.close {
     display: none !important;
   }
 }
-.carousel__slide,
-.carousel__slide--current {
+.carousel__slide {
   position: absolute;
   z-index: 1;
 }
 .carousel__slide--current {
   z-index: 2;
 }
-.caption {
+.image-caption {
   padding: 2.5% 5%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.75);
@@ -5789,13 +5788,13 @@ button.close {
   position: absolute;
   z-index: 1;
 }
-.caption__title {
+.image-caption__title {
   margin: 0;
 }
-.caption__link {
+.image-caption__link {
   color: inherit;
 }
-.caption__link:hover {
+.image-caption__link:hover {
   color: inherit;
   text-decoration: none;
 }
